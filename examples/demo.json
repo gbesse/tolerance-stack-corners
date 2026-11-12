@@ -1,0 +1,16 @@
+{
+  "terms": [
+    {
+      "id": "shaft",
+      "coefficient": 1,
+      "nominal": 10,
+      "half_width": 0.2
+    },
+    {
+      "id": "hole",
+      "coefficient": -1,
+      "nominal": 9,
+      "half_width": 0.1
+    }
+  ]
+}

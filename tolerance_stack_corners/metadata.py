@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Comparer tolérances extrêmes et hypothèses statistiques', 'en': 'Compare worst-case tolerances and statistical assumptions', 'es': 'Comparar tolerancias extremas e hipótesis estadísticas'}

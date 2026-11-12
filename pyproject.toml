@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tolerance-stack-corners"
+version = "0.1.0a1"
+description = "FR: Comparer tolérances extrêmes et hypothèses statistiques | EN: Compare worst-case tolerances and statistical assumptions | ES: Comparar tolerancias extremas e hipótesis estadísticas"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+tolerance-stack-corners = "tolerance_stack_corners.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["tolerance_stack_corners*"]
